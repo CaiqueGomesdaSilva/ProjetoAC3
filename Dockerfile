@@ -8,4 +8,4 @@ WORKDIR /app
 COPY target/projeto-azure-e-container-1.0-SNAPSHOT-jar-with-dependencies.jar .
 
 # Comando para executar o .jar
-CMD ["java", "-jar", "projeto-azure-e-container-1.0-SNAPSHOT-jar-with-dependencies.jar"]
+CMD ["/bin/bash"]
